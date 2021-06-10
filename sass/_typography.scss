@@ -1,5 +1,5 @@
 %heading {
-    font-family: $font-display;
+  font-family: $font-display;
   font-weight: 400;
 }
 
@@ -15,9 +15,14 @@
   font-size: 4rem;
   font-style: italic;
   line-height: 1;
-  
-  &--light { color: $color-grey-light-1 ;}
-  &--dark { color: $color-grey-dark-1 ;}
+
+  &--light {
+    color: $color-grey-light-1;
+  }
+
+  &--dark {
+    color: $color-grey-dark-1;
+  }
 }
 
 .heading-3 {
@@ -30,9 +35,14 @@
 .heading-4 {
   @extend %heading;
   font-size: 1.9rem;
-  
-  &--light { color: $color-grey-light-1 ;}
-  &--dark { color: $color-grey-dark-1 ;}
+
+  &--light {
+    color: $color-grey-light-1;
+  }
+
+  &--dark {
+    color: $color-grey-dark-1;
+  }
 }
 
 .btn {
@@ -46,14 +56,25 @@
   padding: 1.8rem 3rem;
   cursor: pointer;
   transition: all .2s;
-  
+
   &:hover {
     background-color: $color-primary-dark;
   }
 }
 
 
-.mb-sm {  margin-bottom: 2rem; }
-.mb-md {  margin-bottom: 3rem; }
-.mb-lg {  margin-bottom: 4rem; }
-.mb-hg {  margin-bottom: 8rem; }
+.mb-sm {
+  margin-bottom: 2rem;
+}
+
+.mb-md {
+  margin-bottom: 3rem;
+}
+
+.mb-lg {
+  margin-bottom: 4rem;
+}
+
+.mb-hg {
+  margin-bottom: 8rem;
+}
